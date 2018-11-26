@@ -1,0 +1,41 @@
+.pic{
+  margin-left:5px;
+  margin-right: 5px;
+  height: 210px;
+  font-size: 0.7rem;
+  line-height:14pt; 
+}
+.pic image{
+  width: 100%;
+  height: 170px;
+}
+.introduce{
+  margin-top: 20px;
+  height: 30px;
+  border-top: 0.5px solid #515151;
+  text-align: center;
+  color: red;
+  font-size: 0.8rem;
+  /* display:flex;
+  flex-direction:row;
+  justify-content: space-around; */
+}
+/* .introduce view{
+width: 50%;
+text-align: center;
+font-size: 0.7rem;
+color: red;
+} */
+.bg{
+border-left: 0.5px solid #515151;
+}
+.images{
+  justify-content: center;
+  width: 100%;
+  height: 400px;  
+}
+.images image{
+  width: 100%;
+  height: 400px;  
+}
+

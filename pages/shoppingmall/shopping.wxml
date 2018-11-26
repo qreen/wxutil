@@ -1,0 +1,23 @@
+<view class = "home-page">
+<swiper indicator-dots="true"
+  autoplay="true" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image imagecss"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='home-introduce'>
+    <view>你很美商城立志打造成为中国最优秀的全正品女性购物平台！每一个厂家，每一个品牌，每一款产品，都是经过我们严格审核过后才能入驻商城进行销售，让您买得放心，买得划算！女人，你最美！</view>
+</view>
+<view class='home-content'>
+<block wx:for="{{list}}">
+  <view class='content-view' bindtap='jumpDetail' data-id='{{item.id}}'>
+       <image src="http://qtxcx.shinkeer.com{{item.pic[0]}}" class="content-image"/>
+       <view class='content-font'>{{item.detailName}}</view>
+  </view>
+  </block>
+  <view class='other-view' wx:if="{{list.length % 2 != 0}}">
+  </view>
+</view>
+</view>

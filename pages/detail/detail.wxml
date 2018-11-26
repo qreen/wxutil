@@ -1,0 +1,10 @@
+<view class="pic">
+  <image wx:if="{{list.pic.length>0}}" src="https://qtxcx.shinkeer.com{{list.pic[0]}}"/>
+  <view>{{list.detailName}}</view>
+</view>
+<view class='introduce'>
+      <view>图文详情</view>
+</view>
+<view class = 'images'  wx:for="{{list.detailPic}}">
+       <image wx:if="{{list.detailPic.length>0}}" src="https://qtxcx.shinkeer.com{{item}}"/>    
+  </view>

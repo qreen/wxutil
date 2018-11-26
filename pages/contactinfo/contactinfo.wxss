@@ -1,0 +1,43 @@
+.contact-title{
+  background-color: #CDC8B1;
+  height: 30px;
+}
+.contact-title text{
+  font-size: 0.7rem;
+  margin-left:5px;
+  color: #515151;
+}
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  border-bottom: 0.5px solid #515151;
+}
+.td1 {
+    width:60%;
+    justify-content: center;
+    text-align: left;
+    font-size: 0.7rem;
+}
+.td2{
+    width:20%;
+    justify-content: center;
+    text-align: right;
+    font-size: 0.7rem;
+    color: #8F8F8F;
+}
+.buttom-view{
+    margin-top:110px;  
+}
+.buttom-view view{
+  justify-content: center;
+    text-align: center;
+    font-size: 0.7rem;
+  color: #515151;
+}
+

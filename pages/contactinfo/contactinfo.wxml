@@ -1,0 +1,27 @@
+<view class = "contact-title"><text>基本信息</text></view>
+<view class="table">
+    <view class="tr">
+      <view class="td2">联系人：</view>
+      <view class="td1">{{list.userName}}</view>
+    </view>
+    <view class="tr">
+      <view class="td2">联系电话：</view>
+      <view class="td1">{{list.phone}}</view>
+    </view>
+    <view class="tr ">
+      <view class="td2">邮箱：</view>
+      <view class="td1">{{list.email}}</view>
+    </view>
+     <view class="tr ">
+      <view class="td2">QQ：</view>
+      <view class="td1">{{list.qq}}</view>
+    </view>
+    <view class="tr">
+      <view class="td2">地址：</view>
+      <view class="td1">{{list.address}}</view>
+    </view>
+</view>
+<view class='buttom-view'>
+    <view>你很美商城 技术支持</view>
+    <view>http://www.nhenmei.cn</view>
+</view>

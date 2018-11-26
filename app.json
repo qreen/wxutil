@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/shoppingmall/shopping",
+    "pages/contactinfo/contactinfo",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "歆柯瑞美城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"#09bb07",
+    "backgroundColor": "#ffffff",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/shoppingmall/shopping",
+      "text":"首页",
+      "iconPath":"pages/images/1200016.png",
+      "selectedIconPath":"pages/images/1200016.png"
+    },{
+      "pagePath": "pages/contactinfo/contactinfo",
+      "text": "联系我们",
+      "iconPath": "pages/images/1195815.png",
+      "selectedIconPath": "pages/images/1195815.png"
+    }]
+  }
+}
